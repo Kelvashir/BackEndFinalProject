@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: auto-control
+      password: auto-control
+      url: jdbc:mysql://localhost:3306/auto-control
+      
+   jpa:
+      hibernate:
+         ddl-auto: none
+      show-sql: true
+      defer-datasource-initialization: true
+      
+   sql:
+      init:
+         mode: never
